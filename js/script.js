@@ -1,6 +1,6 @@
 // GET ADD EMPLOYEE FORM AND EMPLOYEE TABLE FROM THE DOM
-let empForm = document.getElementById('addForm')
-let empList = document.getElementById('employees')
+let form = document.getElementById('addForm')
+let list = document.getElementById('employees')
 
 // SET A COUNT VARIABLE TO DISPLAY NEXT TO EMPLOYEES HEADER
 
