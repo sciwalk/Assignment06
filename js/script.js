@@ -3,7 +3,7 @@ let form = document.getElementById('addForm')
 let list = document.getElementById('employees')
 
 // SET A COUNT VARIABLE TO DISPLAY NEXT TO EMPLOYEES HEADER
-
+let empCount = document.getElementById('employees').rows.length
 
 // ADD EMPLOYEE
 form.addEventListener('submit', (e) => {
