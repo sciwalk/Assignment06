@@ -8,8 +8,11 @@ let empCount = document.getElementById('employees').rows.length
 // ADD EMPLOYEE
 form.addEventListener('submit', (e) => {
     // PREVENT FORM SUBMISSION
+    e.preventDefault()
 
     // GET THE VALUES FROM THE TEXT BOXES
+    let newItem = document.getElementById('item').value
+
 
     // INSERT A NEW ROW AT THE END OF THE EMPLOYEES TABLE
 
