@@ -13,7 +13,6 @@ form.addEventListener('submit', (e) => {
     // GET THE VALUES FROM THE TEXT BOXES
     let newItem = document.getElementById('item').value
 
-
     // INSERT A NEW ROW AT THE END OF THE EMPLOYEES TABLE
 
     // INSERT A CELL FOR EACH ITEM WITHIN THE NEW ROW
